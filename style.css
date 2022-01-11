@@ -46,3 +46,32 @@ holder-job li p{
     position:relative;
 
 }
+
+@keyframes slide{
+    100%{
+        top: -270px;
+    }
+}
+
+.holder-job li p::after{
+    content:'';
+    position:absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background:#333;
+    border-left: 2px solid #d463cb;
+    animation: typing 3s steps(10) infinite;
+
+
+}
+
+@keyframes typing{
+    40%, 60% {
+       left:calc(100% + 30px) 
+    }
+
+    100%{
+        left: 0;
+    }
+}
