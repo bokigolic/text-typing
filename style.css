@@ -17,3 +17,14 @@ body{
     
 }
 
+.holder-text{
+    line-height:90px;
+    color:#fff;
+}
+
+.holder-job{
+    margin-left: 1.5rem;
+    line-height:90px;
+    height:90px;
+    overflow:hidden;
+}
