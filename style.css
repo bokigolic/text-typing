@@ -28,3 +28,21 @@ body{
     height:90px;
     overflow:hidden;
 }
+
+
+
+.holder-job li{
+    list-style:none;
+    color:#d463cb;
+    font-weight:500;
+    position:relative;
+    top:0;
+    animation: slide 9s steps(3) infinite;
+}
+
+
+holder-job li p{
+    line-height:90px;
+    position:relative;
+
+}
